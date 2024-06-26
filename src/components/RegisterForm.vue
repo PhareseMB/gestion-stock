@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-md mx-auto mt-40 p-10 bg-white rounded-lg shadow-md">
+    <div class="max-w-md mx-auto mt-20 p-10 bg-white rounded-lg shadow-md">
       <div class="flex justify-center mb-6">
         <img src="../assets/nsia-logo.png" alt="Company Logo" class="h-16">
       </div>
@@ -26,7 +26,7 @@
           />
         </div>
         <div class="mb-4">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Mot de passe</label>
           <input
             v-model="form.password"
             type="password"
@@ -36,7 +36,7 @@
           />
         </div>
         <div class="mb-4">
-          <label class="block text-gray-700 text-sm font-bold mb-2" for="confirmPassword">Confirme Password</label>
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="confirmPassword">Confirme Mot de passe</label>
           <input
             v-model="form.confirmPassword"
             type="password"
